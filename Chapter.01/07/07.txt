@@ -1,0 +1,21 @@
+設問7
+
+次のうち、Javaのクラスを実行するコマンドとして、正しいものを選びなさい(2つ選択)。
+
+A. javac Test.java
+B. java Test
+C. java Test.java
+D. javac Test
+E. javap Test
+F. jmod Test.java
+
+解答：
+　B　～　実行するコマンド（Aでコンパイルした後、実行する）
+　C　～　できるようになった。いけるのでは。
+
+
+ダメ：
+　A　～　おかしくはないがコンパイルするコマンドであって実行ではない。
+　D　～　Javacの場合は、.java指定なので、NGとなる。
+　E　～　おかしくはないが逆コンパイルなので.class指定となる。
+　F　～　そもそも指定のファイルが.javaと異なるのでは。

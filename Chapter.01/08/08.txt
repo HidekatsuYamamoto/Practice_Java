@@ -1,0 +1,20 @@
+設問8
+
+以下に示したSampleクラスを実行したときの結果として、正しいものを選びなさい。
+なお、実行時のコマンドは、次のとおりとする（１つと選択）。
+
+> java Sample a \" a\" "a "b c
+
+public class Sample {
+    public static void main(String... args) {
+        System.out.println(args.length);
+    }
+}
+
+A. 4が表示される
+B. 5が表示される
+C. 6が表示される
+D. 7が表示される
+
+解答：B
+

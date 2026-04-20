@@ -1,0 +1,25 @@
+設問2
+次のうち、パッケージ宣言が正しく記述されているコードを選びなさい。
+
+A.  import java.io.* ;
+    package aaa;
+    public class Sample {}
+
+B.  package aaa;
+    import java.io.*;
+    public class Sample {}
+
+C.  import java.io;
+    package aaa {
+        public class Sample {}
+    }
+
+D.  import java.io.* ;
+    package aaa {
+        public class Sample{}
+    }
+
+解答： B.
+
+Aは、importが先にあるのでNG。
+C,Dは、Aと同じNGに加えて、packageの定義がおかしい。

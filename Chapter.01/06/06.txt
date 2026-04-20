@@ -1,0 +1,20 @@
+設問6
+
+次のプログラムを以下に示したコマンドで実行したときの結果として、
+正しいものを選びなさい（１つ選択）。
+
+> java Main java one two
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println(args[0] + " " + args[1]);
+    }
+}
+
+A. Main java と表示される
+B. java one と表示される
+C. one twoと表示される
+D. コンパイルエラーが発生する
+E. 実行時に例外がスローされる
+
+解答：B

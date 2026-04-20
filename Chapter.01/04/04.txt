@@ -1,0 +1,26 @@
+設問4
+
+次のプログラムをコンパイル、実行したときの結果として、正しいものを選びなさい（１つ選択）。
+
+===
+public class Sample {
+    protected int num = 10;
+}
+===
+package ex4;
+
+public class SampleTmpl extends Sample {
+    public static void main(String[] args) {
+        System.out.println(num);
+    }
+}
+====
+
+A. 0が表示される
+B. 10が表示される
+C. コンパイルエラーが発生する
+D. 実行時に例外がスローされる
+
+解答C
+
+理由は、パッケージが異なるため。Sampleクラスは無名クラス。
