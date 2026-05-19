@@ -1,3 +1,4 @@
+// 6.
 public interface B extends A {
     @Override
     default void sample() {

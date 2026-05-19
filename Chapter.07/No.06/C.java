@@ -1,3 +1,4 @@
+// 6.
 public class C implements B {
     @Override
     public void sample() {
