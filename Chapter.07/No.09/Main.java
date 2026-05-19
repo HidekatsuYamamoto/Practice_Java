@@ -1,6 +1,6 @@
 // 9. AbstractSampleクラス及びConcreteSampleクラスを利用する
 // 以下のプログラムを、コンパイル、実行したときの結果として、
-// 正しいものを選びなさい（１つ選択）。
+// 正しいものを選びなさい（１つ選択）。　
 public class Main {
     public static void main(String[] args) {
         AbstractSample s = new ConcreteSample();

@@ -1,3 +1,4 @@
+// 
 abstract class AbstractSample {
 
     public void sample() {
