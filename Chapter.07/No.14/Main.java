@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
+        // Cannot instantiate the type Worker
+        // Worker w = new Worker();
         Worker a = new Engineer();
         Employee b = new Engineer();
         Engineer c = new Engineer();
@@ -9,6 +11,8 @@ public class Main {
         c.create(); // 修正後（createしたければ）
         b.work();
         c.report();
+
+        // w.work();
     }
 }
 // A. Mainクラスのa.create();でコンパイルエラー
