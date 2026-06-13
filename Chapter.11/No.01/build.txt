@@ -1,0 +1,13 @@
+・build
+javac -d mods/com.example.message ^
+      src/com.example.message/module-info.java ^
+      src/com.example.message/com/example/message/MessageService.java
+
+javac --module-path mods ^
+      -d mods/com.example.app ^
+      src/com.example.app/module-info.java ^
+      src/com.example.app/com/example/app/Main.java
+
+・excecute
+java --module-path mods ^
+     -m com.example.app/com.example.app.Main
