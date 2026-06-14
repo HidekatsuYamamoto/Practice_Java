@@ -1,0 +1,13 @@
+ java ^
+--module-path mods ^
+--describe-module module1st
+
+// 6. Ans. A.
+// No.04の環境を入れたうえで、上記コマンドを実行。
+java ^
+More? --module-path mods ^
+More? --describe-module module1st
+module1st Chapter.11/No.04/mods/module1st/
+requires module2nd
+requires java.base mandated
+contains other

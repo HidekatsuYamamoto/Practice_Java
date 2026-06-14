@@ -15,3 +15,14 @@ javac ^
 src/module1st/module-info.java ^
 src/module1st/other/otherApp.java
 
+java ^
+--module-path mods ^
+-m module1st/other.otherApp
+
+java ^
+--module-path mods ^
+-d module1st
+
+ java ^
+--module-path mods ^
+--describe-module module1st

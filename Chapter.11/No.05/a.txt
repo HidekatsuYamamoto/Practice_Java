@@ -1,0 +1,77 @@
+// 5. あらかじめ用意されているモジュールのうち、標準で組み込まれるモジュールとして、正しいものを選びなさい（１つ選択）。
+// A. java.lang
+// B. java.base
+// C. jdk.lang
+// D. jdk.base
+// Ans. A.
+//
+// ちなみに以下のリストは、java --list-modulesコマンドの出力結果。
+java.base@26
+java.compiler@26
+java.datatransfer@26
+java.desktop@26
+java.instrument@26
+java.logging@26
+java.management@26
+java.management.rmi@26
+java.naming@26
+java.net.http@26
+java.prefs@26
+java.rmi@26
+java.scripting@26
+java.se@26
+java.security.jgss@26
+java.security.sasl@26
+java.smartcardio@26
+java.sql@26
+java.sql.rowset@26
+java.transaction.xa@26
+java.xml@26
+java.xml.crypto@26
+jdk.accessibility@26
+jdk.attach@26
+jdk.charsets@26
+jdk.compiler@26
+jdk.crypto.cryptoki@26
+jdk.crypto.ec@26
+jdk.crypto.mscapi@26
+jdk.dynalink@26
+jdk.editpad@26
+jdk.graal.compiler@26
+jdk.graal.compiler.management@26
+jdk.hotspot.agent@26
+jdk.httpserver@26
+jdk.incubator.vector@26
+jdk.internal.ed@26
+jdk.internal.jvmstat@26
+jdk.internal.le@26
+jdk.internal.md@26
+jdk.internal.opt@26
+jdk.internal.vm.ci@26
+jdk.jartool@26
+jdk.javadoc@26
+jdk.jcmd@26
+jdk.jconsole@26
+jdk.jdeps@26
+jdk.jdi@26
+jdk.jdwp.agent@26
+jdk.jfr@26
+jdk.jlink@26
+jdk.jpackage@26
+jdk.jshell@26
+jdk.jstatd@26
+jdk.localedata@26
+jdk.management@26
+jdk.management.agent@26
+jdk.management.jfr@26
+jdk.naming.dns@26
+jdk.naming.rmi@26
+jdk.net@26
+jdk.nio.mapmode@26
+jdk.sctp@26
+jdk.security.auth@26
+jdk.security.jgss@26
+jdk.unsupported@26
+jdk.unsupported.desktop@26
+jdk.xml.dom@26
+jdk.zipfs@26
