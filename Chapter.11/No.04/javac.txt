@@ -1,0 +1,17 @@
+javac ^
+-d mods/module3rd ^
+src/module3rd/module-info.java ^
+src/module3rd/function/FunctionService.java
+
+javac ^
+--module-path mods ^
+-d mods/module2nd ^
+src/module2nd/module-info.java ^
+src/module2nd/app/appService.java
+
+javac ^
+--module-path mods ^
+-d mods/module1st ^
+src/module1st/module-info.java ^
+src/module1st/other/otherApp.java
+

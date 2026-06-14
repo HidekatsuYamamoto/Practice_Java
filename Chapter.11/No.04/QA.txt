@@ -1,0 +1,14 @@
+// 4. 次の図ようなモジュールグラフがあったとき、module1でmodule3に属する
+// パッケージのクラスを利用する際の説明として正しいものを選びなさい（１つ選択）。
+// 
+// A. module1のmodule-info.javaで、module2をrequiresで宣言する。
+// B. module1のmodule-info.javaで、moduke2をrequires transitiveで宣言する。
+// C. module2のmodule-info.javaで、module3をrequiresで宣言する。
+// D. module2のmodule-info.javaで、moduke3をrequires transitiveで宣言する。
+//
+//解答D.
+// Aは、module2を使うだけ、requires module3を追加すればできるとはおもいますが、
+// Bは、module1を使う人に影響がある。今回はmodule2を宣言し、module3を使うなので関係なし。
+// Cは、そもそもmodule2の話。このままいくなら、module1でrequires module3が必要。
+// Dは、module1でmodule2を宣言したとき、module2側がmodule3をtransitiveしており、
+//     module1側でも、module3のパッケージに属するクラスが使える。
