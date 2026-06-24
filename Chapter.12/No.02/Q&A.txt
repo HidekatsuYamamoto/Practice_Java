@@ -1,0 +1,9 @@
+２．次の３つのステートメントを記述する順番として、正しいものを選びなさい（１つ選択）。
+
+A. package import class
+B. package class import
+C. import class package
+D. class package import
+E. import package class
+
+解答A　解説は不要かな。
