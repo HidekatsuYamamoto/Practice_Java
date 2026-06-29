@@ -1,0 +1,23 @@
+18.
+　次のコマンドを実行した結果、以下のような内容がコンソールに表示された。
+　この内容を表すモジュールグラフとして、正しいものを選びなさい（１つ選択）。
+
+> java --describe-module com.sample
+
+com.sample
+exports com.sql
+exports com.foo
+requires java.base mandated.
+requires com.logging transitive
+requires com.xml transitive
+uses java.sql.Driver
+
+選択肢
+ A-D: 選択肢A-D.jpg
+
+解答
+ D
+
+解説
+　まず、
+

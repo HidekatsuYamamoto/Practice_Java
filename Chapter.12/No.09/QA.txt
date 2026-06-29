@@ -1,0 +1,15 @@
+9. クラスやモジュールの依存関係を調べるために使うコマンドとして、正しいものを選びなさい（２つ選択）。
+
+A. jmod describe
+B. jdeps --list-deps
+C. java Hello.java
+D. jar --show-module-resolution
+E. java --show-module-resolution
+
+解答：B,E
+
+クラスの依存関係 -> jdeps
+モジュールの依存関係 -> java --show-module-resolution
+
+jmod -> モジュール作成
+jar -> jarファイルの作成
