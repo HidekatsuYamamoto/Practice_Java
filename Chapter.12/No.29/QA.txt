@@ -1,0 +1,15 @@
+29. JDKモジュール化の理由
+
+A. アプリケーションモジュールとJDKのモジュールのリンクが容易に構築できる。
+B. Java理解
+C. 実装の詳細公開
+D. セキュリティ・ﾒｲﾝﾃﾅﾝｽ
+E. 堅牢性
+
+ANs. A,D
+
+A.
+https://qiita.com/yoshioterada/items/bcdbc8967bbfda91a2cc
+
+D.
+実際に下流のコードに公開したくないAPIをカプセル化するのに役立ちます。
