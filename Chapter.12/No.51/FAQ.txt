@@ -1,0 +1,9 @@
+51. finallyの話
+
+A. finallyの位置　〇
+B. finallyとtry-with-resourcesの順番の話　✕
+C. 複数のcatchもてるか　〇
+D. catchで並べる順番　✕
+E. finally必須か？　✕
+
+A and C
