@@ -1,0 +1,10 @@
+70. com.exampleモジュール内にあるmainメソッドを持つ
+    com.sample.Mainクラスより実行するためのコマンドついて
+    正しいものを選びなさい（１つ選択）。
+
+A. java -classpath com.example.jar -m com.example/com.sample.Main
+B. java -classpath cpm.example.jar com.sample.Main
+C. java --module-path mods -m com.example/com.sample.Main
+D. java --module-path mods com.example/com.sample.Main
+
+C.
