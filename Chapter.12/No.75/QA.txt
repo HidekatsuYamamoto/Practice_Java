@@ -1,0 +1,25 @@
+75. モジュールaは、モジュールbに依存し、ほかの全てのモジュールから
+com.sampleパッケージにアクセスできるようにしたい。この要件にあった
+module-info.javaを選びなさい（１つ選択）。
+
+A. module a {
+    requires com.sample ; ✕
+    exports b;　✕
+}
+
+B. module a {
+    requires b ;　〇
+    exports com.sample ; 〇
+}
+
+C. module a {
+    import com.sample ; ✕
+    exports b ; ✕
+}
+
+D. module a {
+    import b ;　✕
+    export com.sample ; 〇
+}
+
+解答B.
